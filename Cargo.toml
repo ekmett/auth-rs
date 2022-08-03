@@ -1,0 +1,13 @@
+[package]
+name = "auth"
+version = "0.1.0"
+authors = ["Edward Kmett <ekmett@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.140", features = ["derive"] }
+serde_json = "1.0.83"
+hex = "0.3.1"
+sha1 = "0.10.0"
+digest = "0.10.3"
+derivative = "2.2.0"
